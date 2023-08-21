@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <PrimeiroComponente/>,
     <p>isso também é um componente mesmo sendo o root</p>,
@@ -28,4 +29,19 @@ export default {
   }
 
 }
+
+    <PrimeiroComponente/>
+</template>
+
+<script>
+  import PrimeiroComponente from './components/PrimeiroComponente.vue';
+ 
+  export default {
+    name : 'App',
+    components: {
+      PrimeiroComponente
+    }
+
+  }
+
 </script>
