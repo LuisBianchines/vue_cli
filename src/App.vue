@@ -1,9 +1,8 @@
 <template>
   <div>
     <Header />
-    <PrimeiroComponente/>,
-    <p>isso também é um componente mesmo sendo o root</p>,
-    <LifeCycle/>,
+    <PrimeiroComponente/>
+    <LifeCycle/>
     <Pessoa/>
     
   </div>
