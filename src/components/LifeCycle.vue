@@ -1,0 +1,25 @@
+<template>
+    <h1>o valor é {{ valor }}</h1>
+</template>
+
+<script>
+    export default {
+        name: 'LyfeCycle',
+        data(){
+            return {
+                valor: 'ainda nao sei'
+            }
+        },
+        created(){
+            setTimeout(() => {
+                this.valor = '9000'    
+            }, 1000);           
+        },
+        mounted(){
+            setTimeout(() => {
+                this.valor = '2000'    
+            }, 2000);
+            
+        }
+    }
+</script>
