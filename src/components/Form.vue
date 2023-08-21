@@ -27,3 +27,10 @@
 }
 }
 </script>
+
+<style scoped>
+   div {
+      background-color: brown;
+      text-align: center;
+   }
+</style>

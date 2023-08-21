@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>o valor é {{ valor }}</h1>
+        <h1>Qual sua Stack {{ valor }}</h1>
     </div>
     
 </template>
@@ -15,14 +15,14 @@
         },
         created(){
             setTimeout(() => {
-                this.valor = '9000'    
+                this.valor = 'Backend'    
             }, 1000);   
             
             this.LifeCycle()
         },
         mounted(){
             setTimeout(() => {
-                this.valor = '2000'    
+                this.valor = 'Frontend'    
             }, 2000);
 
             this.LifeCycle()
