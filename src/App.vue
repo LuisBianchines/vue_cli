@@ -1,10 +1,13 @@
 <template>
   <div>
     <Header />
+    <reutilizacao />
     <MultiplosEventos />
+    <reutilizacao />
     <PrimeiroComponente/>
     <LifeCycle/>
     <Pessoa/>
+    <reutilizacao />
     
   </div>
   
@@ -16,6 +19,7 @@ import MultiplosEventos from './components/MultiplosEventos.vue';
 import PrimeiroComponente from './components/PrimeiroComponente.vue';
 import LifeCycle from './components/LifeCycle.vue';
 import Pessoa from './components/Pessoa.vue';
+import Reutilizacao from './components/Reutilizacao.vue';
 
 
 export default {
@@ -25,7 +29,8 @@ export default {
     MultiplosEventos,
     PrimeiroComponente,
     LifeCycle,
-    Pessoa
+    Pessoa,
+    Reutilizacao
 
 },
   data() {
