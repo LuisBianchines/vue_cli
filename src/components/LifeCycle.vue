@@ -30,7 +30,7 @@
         },
         methods: {
             LifeCycle(){
-                console.log('Deu certo');
+                //console.log('Deu certo');
             }
         }
     }
