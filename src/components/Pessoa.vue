@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>Esta é a descrição da pessoa: {{ valor }}</h2>
-        <Info />
+        <Info compEmail="luis@teste.com.br" :email="email" :trabalhando="true"/>
         <Form />
     </div>
 </template>
@@ -14,7 +14,8 @@
     name: 'PessoaTeste',
     data() {
         return {
-            valor: 'Luis'
+            valor: 'Luis',
+            email: 'testeemailprops@teste.com'
         };
     },
     components: {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header :logado="true"/>
     <reutilizacao />
     <MultiplosEventos />
     <reutilizacao />

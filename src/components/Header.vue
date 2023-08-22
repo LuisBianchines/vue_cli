@@ -4,6 +4,7 @@
       <li><a href="#">Home</a></li>
       <li><a href="#">Projetos</a></li>
       <li><a href="#">Contato</a></li>
+      <li v-if="logado"><a href="#">Meu Perfil</a></li>
     </ul>
   </div>
 </template>
@@ -11,6 +12,7 @@
 <script>
 export default {
   name: "HeaderTeste",
+  props: ["logado"]
 };
 </script>
  
@@ -27,7 +29,7 @@ ul {
 }
 
 li {
-  margin-left: 250px;
+  margin-left: 200px;
 }
 
 a {

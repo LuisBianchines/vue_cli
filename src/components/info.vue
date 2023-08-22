@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>{{ compEmail }}</p>
     <p v-if="trabalhando">Estou trabalhando no momento</p>
     <p v-else>Buscando novas oportunidades</p>
     <p v-if="4 > 6">Maior</p>
@@ -43,10 +44,13 @@
         components: {
             Picture
         },
+        props: {
+          compEmail: String,
+          email: String,
+          trabalhando: Boolean
+        },
         data(){
             return {
-                trabalhando: false,
-                email: 'luishdb@hotmail.com',
                 mostrar_email: true,
                 meu_link: 'http://google.com',
                 textoBotao: 'Mostrar E-mail',
